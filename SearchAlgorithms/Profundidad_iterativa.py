@@ -2,7 +2,7 @@ from asyncio import current_task
 from tkinter import Canvas
 import numpy as np
 from . import globals as gl
-from memory_profiler import profile
+# from memory_profiler import profile
 
 class Stack: 
     items = []

@@ -1,5 +1,6 @@
 from sortedcontainers import SortedList
 from . import globals as gl
+#from memory_profiler import profile
 prioridad = 0
 class Vecino(object):
     def __init__(self,post,dinit,parent):
@@ -15,6 +16,8 @@ class Vecino(object):
     def close(self,num):
         gl.matrix[self.post[0]][self.post[1]]=num     
 
+#@profile
+@gl.mide_tiempo
 def Costo_uniforme():
         global prioridad
         #SEEK AROUND (ACCIONES POSIBLES ) Y PONERLA EN COLA DE PRIORIDAD DE MENOR DISTANCIA

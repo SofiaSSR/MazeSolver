@@ -70,7 +70,7 @@ def MazeSolverBoard():
         # Dropdown menu options
     options = [
         "Profundidad", "Anchura", "Profundidad iterativa",
-        "Costo uniforme", "Búsqueda Greedy", "Algoritmo A*"
+        "Costo uniforme", "Busqueda Greedy", "Algoritmo A*"
     ]
     # datatype of menu text
     valor = tk.StringVar(root)
@@ -88,7 +88,7 @@ def MazeSolverBoard():
         elif opcion == "Costo uniforme":
              C_U.Costo_uniforme()
         elif opcion == "Busqueda Greedy":
-             Greedy.Greedy()
+             Greedy._greedy()
         elif opcion == "Algoritmo A*":
              Astar.Astar()
         # Create Dropdown menu

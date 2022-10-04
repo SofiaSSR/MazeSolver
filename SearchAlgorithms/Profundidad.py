@@ -2,7 +2,7 @@ from asyncio import current_task
 from tkinter import Canvas
 import numpy as np
 from . import globals as gl
-from memory_profiler import profile
+# from memory_profiler import profile
 
 class Stack: 
     items = []
@@ -64,7 +64,7 @@ def backTracking(solution,maze_,startCell,goal,canvas):
     color_maze(canvas,np.array(maze_))
 
 # @gl.mide_tiempo
-@profile
+#@profile
 def _profundidad(startCell,goalCell,maze_,canvas):
     frontier = Stack()
     visited = Stack()

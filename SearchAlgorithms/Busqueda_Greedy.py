@@ -16,7 +16,7 @@ class Vecino(object):
         return self.dgoal  
     def close(self,num):
         gl.matrix[self.post[0]][self.post[1]]=num 
-def Greedy():
+def _greedy():
         print("greedy bitches")
         global prioridad
         #SEEK AROUND (ACCIONES POSIBLES ) Y PONERLA EN COLA DE PRIORIDAD DE MENOR DISTANCIA

@@ -1,7 +1,7 @@
 from profile import Profile
 from sortedcontainers import SortedList
 from . import globals as gl
-from memory_profiler import profile
+#from memory_profiler import profile
 
 open=SortedList()
 class Vecino(object):
@@ -24,7 +24,7 @@ class Vecino(object):
         gl.matrix[self.post[0]][self.post[1]]=num
 
 #@gl.mide_tiempo
-@profile
+#@profile
 def Astar():
     Profile()
     global open

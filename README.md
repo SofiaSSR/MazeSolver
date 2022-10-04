@@ -1,2 +1,3 @@
-# MazeSolver
-Maze Solver for Introduction to Artificial Inteligence, National u{niversity of Colombia 2022-2
+# Inteligencia Artifical
+## Maze Solver: Algoritmos de busqueda para la resolucion de laberintos 
+Universidad Nacional de colombia, Introduccion a la inteligencia artificial
